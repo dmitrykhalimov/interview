@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/app/app";
-import {Redirect} from "react-router"
-
 
 ReactDOM.render(
   <App />,
   document.querySelector(`#root`)
  );
 
+//TODO
+// 1. Плохо отрисовывается CSS из спрайта. Заменить.
